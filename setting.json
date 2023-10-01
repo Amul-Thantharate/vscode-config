@@ -1,0 +1,102 @@
+{
+    "workbench.colorTheme": "Community Material Theme Darker",
+    "editor.fontFamily": "\"Cascadia Code\", \"Cartograph CF\"",
+    "window.zoomLevel": 1,
+    "[ansible-jinja]": {
+        "editor.formatOnSave": true
+    },
+    "editor.cursorBlinking": "expand",
+    "editor.cursorStyle": "line",
+    "github.copilot.advanced": {
+        "enabled": true
+    },
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false,
+        "python": true,
+        "javascript": true,
+        "typescript": true,
+        "go": true,
+        "ruby": true,
+        "php": true,
+        "java": true,
+        "csharp": true,
+        "cpp": true,
+        "yaml": true,
+        "json": true
+    },
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorWidth": 2,
+    "editor.cursorSurroundingLines": 10,
+    "editor.fontLigatures": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "comment.block",
+                    "comment.block.documentation",
+                    "comment.line",
+                    "punctuation.definition.comment",
+                    "entity.name.type.class",
+                    "entity.other.attribute-name",
+                    "entity.other.attribute-name.id",
+                    "entity.other.attribute-name.class",
+                    "entity.other.attribute-name.pseudo-class",
+                    "keyword",
+                    "keyword.control",
+                    "keyword.operator",
+                    "keyword.operator.new",
+                    "keyword.operator.expression",
+                    "constant",
+                    "constant.language",
+                    "constant.numeric",
+                    "constant.numeric.integer",
+                    "constant.numeric.float",
+                    "storage",
+                    "storage.type",
+                    "storage.type.function",
+                    "storage.modifier",
+                    "storage.modifier.async",
+                    "storage.modifier.export",
+                    "storage.modifier.import",
+                    "storage.modifier.package",
+                    "storage.modifier.package-name",
+                    "variable",
+                    "variable.language",
+                    "variable.parameter",
+                    "variable.other",
+                    "variable.other.readwrite",
+                    "variable.other.readwrite.alias",
+                    "constant.character",
+                    "constant.character.escape",
+                    "constant.character.escape.backslash",
+                    "constant.character.escape.delimiter",
+                ],
+                "settings": {
+                    "fontStyle": "italic",
+                }
+            }, 
+                
+            ]
+        
+    },
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "material-icon-theme",
+    "redhat.telemetry.enabled": true,
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path-windows": "C:\\Users\\amult\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+        "vscode-kubernetes.kubectl-path-windows": "C:\\Users\\amult\\.vs-kubernetes\\tools\\kubectl\\kubectl.exe",
+        "vscode-kubernetes.minikube-path-windows": "C:\\Users\\amult\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
+    },
+    "remote.SSH.remotePlatform": {
+        "master": "linux",
+        "192.168.1.83": "linux",
+        "192.168.1.87": "linux",
+        "192.168.1.35": "linux"
+    },
+    "explorer.confirmDelete": false
+}
