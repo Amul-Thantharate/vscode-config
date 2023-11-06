@@ -1,12 +1,11 @@
 {
-    "workbench.colorTheme": "Community Material Theme Darker",
     "editor.fontFamily": "\"Cascadia Code\", \"Cartograph CF\"",
-    "window.zoomLevel": 1,
     "[ansible-jinja]": {
         "editor.formatOnSave": true
     },
     "editor.cursorBlinking": "expand",
     "editor.cursorStyle": "line",
+    "editor.fontLigatures": "'calt', 'ss01'",
     "github.copilot.advanced": {
         "enabled": true
     },
@@ -27,16 +26,19 @@
         "yaml": true,
         "json": true
     },
-    "editor.cursorSmoothCaretAnimation": "on",
     "editor.cursorWidth": 2,
     "editor.cursorSurroundingLines": 10,
-    "editor.fontLigatures": true,
     "editor.inlineSuggest.enabled": true,
+    "editor.cursorSurroundingLinesStyle": "all",
+    "editor.cursorSmoothCaretAnimation": "on",
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
                 "scope": [
                     "comment",
+                    "Settings",
+                    "SettingsHeading",
+                    "SettingsEntityName",
                     "comment.block",
                     "comment.block.documentation",
                     "comment.line",
@@ -75,6 +77,19 @@
                     "constant.character.escape",
                     "constant.character.escape.backslash",
                     "constant.character.escape.delimiter",
+                    "constant.character.escape.delimiter.begin",
+                    "constant.character.escape.delimiter.end",
+                    "string.quoted",
+                    "string.quoted.single",
+                    "string.quoted.double",
+                    "string.quoted.triple",
+                    "string.quoted.other",
+                    "string.unquoted",
+                    "dictionaries.key",
+                    "dictionaries.value",
+                    "support",
+                    "support.function",
+                    "support.constant",
                 ],
                 "settings": {
                     "fontStyle": "italic",
@@ -82,21 +97,51 @@
             }, 
                 
             ]
+    },
         
-    },
+    
     "workbench.startupEditor": "none",
-    "workbench.iconTheme": "material-icon-theme",
     "redhat.telemetry.enabled": true,
-    "vs-kubernetes": {
-        "vscode-kubernetes.helm-path-windows": "C:\\Users\\amult\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
-        "vscode-kubernetes.kubectl-path-windows": "C:\\Users\\amult\\.vs-kubernetes\\tools\\kubectl\\kubectl.exe",
-        "vscode-kubernetes.minikube-path-windows": "C:\\Users\\amult\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
-    },
     "remote.SSH.remotePlatform": {
         "master": "linux",
         "192.168.1.83": "linux",
         "192.168.1.87": "linux",
-        "192.168.1.35": "linux"
+        "192.168.1.35": "linux",
+        "default": "linux",
+        "app": "linux",
+        "Jenkins": "linux",
+        "jenkins": "linux",
+        "Slave": "linux",
+        "slave1": "linux"
     },
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "git.enableSmartCommit": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.preferredHighContrastColorTheme": "Monokai",
+    "terminal.integrated.tabs.defaultIcon": "history",
+    "workbench.activityBar.iconClickBehavior": "focus",
+    "aws.suppressPrompts": {
+        "codeWhispererNewWelcomeMessage": true
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.cursorBlinking": true,
+
+    "window.zoomLevel": 1,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "workbench.iconTheme": "material-icon-theme",
+    "git.autofetch": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.matchBrackets": "near",
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true
+    },
+    "vs-kubernetes": {
+        "disable-linters": ["resource-limits"],
+},
+"git.confirmSync": false,
+"workbench.colorTheme": "One Dark Pro Monokai Darker"
 }
