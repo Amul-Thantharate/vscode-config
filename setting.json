@@ -1,65 +1,12 @@
 {
-    "workbench.colorTheme": "Catppuccin Mocha",
-    "windsurf.autocompleteSpeed": "fast",
-    "tabnine.experimentalAutoImports": true,
+    "workbench.colorTheme": "Material Theme Darker",
     "windsurf.cascadeOpenOnReload": false,
-    "editor.fontFamily": "Cascadia Code",
+    "windsurf.enableAutocomplete": true,
+    "remote.windsurfSSH.configFile": "~/.ssh/config",
+    // "editor.fontFamily": "Cascadia Code",
+    "editor.fontFamily": "CaskaydiaCove Nerd Font",
     "editor.wordWrap": "on",
     "editor.guides.bracketPairs": "active",
-    "editor.tokenColorCustomizations": {
-    "textMateRules": [
-        {
-            "scope": [
-                "comment",
-                "Settings",
-                "SettingsHeading",
-                "SettingsEntityName",
-                "comment.block",
-                "comment.block.documentation",
-                "comment.line",
-                "keyword",
-                "keyword.control",
-                "keyword.operator",
-                "keyword.operator.new",
-                "keyword.operator.expression",
-                "constant",
-                "constant.language",
-                "constant.numeric",
-                "constant.numeric.integer",
-                "constant.numeric.float",
-                "storage",
-                "storage.type",
-                "storage.type.function",
-                "storage.modifier",
-                "storage.modifier.async",
-                "storage.modifier.export",
-                "storage.modifier.import",
-                "storage.modifier.package",
-                "storage.modifier.package-name",
-                "variable",
-                "variable.language",
-                "variable.parameter",
-                "variable.other.readwrite",
-                "variable.other.readwrite.alias",
-                "constant.character",
-                "string.quoted",
-                "string.quoted.single",
-                "string.quoted.double",
-                "string.quoted.triple",
-                "string.quoted.other",
-                "string.unquoted",
-                "dictionaries.key",
-                "dictionaries.value",
-                "support",
-                "support.function",
-                "support.constant",
-            ],
-        "settings": {
-            "fontStyle": "italic",
-        }
-        }
-    ]
-    },
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "git.enableSmartCommit": true,
@@ -88,9 +35,55 @@
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.cursorBlinking": "expand",
     "editor.cursorStyle": "line",
-    "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss19', 'ss20'",
+    // "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss19', 'ss20'",
+    "editor.fontLigatures": true,
     "workbench.sideBar.location": "right",
     "python.createEnvironment.trigger": "off",
     "catppuccin.accentColor": "pink",
     "editor.tabCompletion": "on",
+    "editor.fontSize": 14,
+    "editor.cursorWidth": 10,
+    "editor.lineHeight": 2,
+    "editor.autoIndent": "advanced",
+    "editor.fontWeight": "600",
+    "editor.tokenColorCustomizations": {
+    "textMateRules": [
+    {
+        "scope": [
+            "comment",
+            "entity.name.type.class", 
+            "constant", 
+            "storage.modifier", 
+            "storage.type.class.js", 
+            "keyword",
+            "variable",
+            "string.quoted",
+            "support.class",
+            "support.type",
+            "string",
+            "comment.line",
+            "comment.block",
+        ],
+        "settings": {
+            "fontStyle": "italic bold"
+        }
+    },
+    {
+        "scope": [
+            "invalid",
+            "keyword.operator",
+            "constant.numeric.css",
+            "keyword.other.unit.px.css",
+            "constant.numeric.decimal.js",
+            "constant.numeric.json"
+        ],
+        "settings": {
+            "fontStyle": "italic"
+        }
+        }
+    ]
+    },
+    "editor.lineNumbers": "relative",
+    "code-runner.runInTerminal": false,
+    "windsurf.enableSupercomplete": false,
 }
